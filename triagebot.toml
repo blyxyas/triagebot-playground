@@ -1,2 +1,5 @@
+[relabel]
+allow-unauthenticated = ["bug", "invalid", "question", "enhancement"]
+
 [autolabel."S-waiting-on-review"]
 new_pr = true
