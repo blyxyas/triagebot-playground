@@ -98,6 +98,7 @@ exclude_labels = [
     "requires-nightly",
 ]
 
+
 [autolabel."T-rustdoc"]
 trigger_files = [
     # Source code
@@ -137,7 +138,7 @@ exclude_labels = [
 ]
 
 [autolabel."bug"]
-new_pr = true
+first_contrib = true
 
 [notify-zulip."I-prioritize"]
 zulip_stream = 245100 # #t-compiler/wg-prioritization/alerts
